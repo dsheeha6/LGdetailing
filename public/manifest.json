@@ -1,6 +1,7 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "LG Detailing",
+  "name": "LG Mobile Detailing - Atlanta's Premier Mobile Car Detailing Service",
+  "description": "Professional mobile car detailing service in Atlanta, GA. Convenient, high-quality detailing at your home or office.",
   "icons": [
     {
       "src": "favicon.ico",
@@ -20,6 +21,9 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#007BFF",
+  "background_color": "#ffffff",
+  "orientation": "portrait-primary",
+  "categories": ["automotive", "business", "services"],
+  "lang": "en-US"
 }

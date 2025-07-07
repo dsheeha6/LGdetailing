@@ -1,46 +1,108 @@
-# Getting Started with Create React App
+# LG Mobile Detailing Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, responsive website for LG Mobile Detailing - Atlanta's premier mobile car detailing service.
 
-## Available Scripts
+## 🚗 Features
 
-In the project directory, you can run:
+- **Modern Design**: Clean, professional design with Tailwind CSS
+- **Mobile Responsive**: Optimized for all devices and screen sizes
+- **Interactive Elements**: Auto-scrolling reviews, before/after slider
+- **SEO Optimized**: Meta tags, structured data, sitemap
+- **Fast Performance**: Optimized images and code splitting
+- **Contact Forms**: Booking and contact forms with validation
+- **Social Integration**: Links to Instagram, TikTok, and Google Business
 
-### `npm start`
+## 🛠️ Tech Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- **React 19** with TypeScript
+- **Tailwind CSS** for styling
+- **Framer Motion** for animations
+- **React Router** for navigation
+- **Netlify** for hosting and deployment
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 📱 Pages
 
-### `npm test`
+- **Home**: Hero section, services overview, testimonials
+- **Services**: Detailed service packages and pricing
+- **Gallery**: Before/after transformations and work examples
+- **Book Now**: Appointment booking form
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🚀 Deployment
 
-### `npm run build`
+### Netlify Deployment
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This site is optimized for Netlify deployment with the following features:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. **Automatic Builds**: Connected to GitHub for automatic deployments
+2. **Client-side Routing**: `_redirects` file handles React Router
+3. **Performance Optimization**: 
+   - Source maps disabled for production
+   - Aggressive caching for static assets
+   - Security headers configured
+4. **SEO Ready**: Sitemap, robots.txt, and meta tags included
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Manual Deployment Steps
 
-### `npm run eject`
+1. **Connect to Netlify**:
+   - Go to [Netlify](https://netlify.com)
+   - Connect your GitHub repository
+   - Set build command: `npm run build`
+   - Set publish directory: `build`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+2. **Environment Variables** (if needed):
+   - Add any required environment variables in Netlify dashboard
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. **Custom Domain** (optional):
+   - Add your custom domain in Netlify settings
+   - Update DNS records as instructed
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Local Development
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```bash
+# Install dependencies
+npm install
 
-## Learn More
+# Start development server
+npm start
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Build for production
+npm run build
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Test the build locally
+npx serve -s build
+```
+
+## 📊 Performance Features
+
+- **Image Optimization**: Responsive images with proper sizing
+- **Code Splitting**: Automatic code splitting with React Router
+- **Caching**: Aggressive caching for static assets
+- **Security**: Security headers and CSP configuration
+- **PWA Ready**: Manifest file for mobile app-like experience
+
+## 🔧 Configuration Files
+
+- `netlify.toml`: Netlify deployment configuration
+- `public/_redirects`: Client-side routing support
+- `public/robots.txt`: Search engine crawling instructions
+- `public/sitemap.xml`: Site structure for search engines
+- `public/manifest.json`: PWA configuration
+
+## 📞 Contact
+
+- **Phone**: (470) 428-6540
+- **Email**: info@lgmobiledetailing.com
+- **Hours**: Monday - Sunday, 8:00 AM - 8:00 PM
+- **Service Area**: Atlanta, GA & surrounding areas
+
+## 🌟 Business Features
+
+- **Mobile Service**: We come to you - no need to drive anywhere
+- **Professional Equipment**: Premium products and tools
+- **Flexible Scheduling**: 7 days a week, 12 hours a day
+- **Multiple Service Levels**: Basic, Premium, and Full Detail packages
+- **Specialized Services**: Ceramic coating, paint correction, interior deep cleaning
+
+---
+
+Built with ❤️ for LG Mobile Detailing
