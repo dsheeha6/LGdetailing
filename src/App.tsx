@@ -920,7 +920,7 @@ const Gallery: React.FC = () => {
             ))}
           </div>
         </motion.div>
-      </div>
+    </div>
     </main>
   );
 };
@@ -1270,4 +1270,4 @@ const App: React.FC = () => {
   );
 };
 
-export default App; 
+export default App;
